@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Momentum Ash app</title>
+</head>
+<body>
+  <form action="" id="loginForm" class="hidden">
+    <input 
+      type="text" 
+      id="loginInput"
+      required
+      maxlength="15"
+      placeholder="What's your name?"
+    />
+    <button>Log In</button>
+  </form>
+  <h2 id="clock">00:00:00</h2>
+  <h1 id="greeting" class="hidden"></h1>
+  <form action="" id="todoForm">
+    <input 
+      type="text"
+      required
+      placeholder="Write what you need to do today, and press enter!!"
+    />
+  </form>
+  <ul id="todoList">
+  </ul>
+  <div id="quotes">
+    <span></span>
+    <span></span>
+  </div>
+  <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+  <script src="greeting.js"></script>
+  <script src="clock.js"></script>
+  <script src="quotes.js"></script>
+  <script src="background.js"></script>
+  <script src="todo.js"></script>
+  <script src="weather.js"></script>
+</body>
+</html>
